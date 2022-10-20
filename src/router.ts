@@ -8,7 +8,7 @@ const router = createRouter({
             component: () => import('./views/index.vue')
         }
     ],
-    history: createWebHistory()
+    history: createWebHistory('/pages-vue')
 })
 
 export default router;
